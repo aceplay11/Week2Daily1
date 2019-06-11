@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Car_Registration_Activity">
+
+    <EditText
+        android:id="@+id/etCarYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:hint="Enter Car Year"        />
+
+    <EditText
+        android:id="@+id/etCarMake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:hint="Enter Car Make"        />
+
+    <EditText
+        android:id="@+id/etCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:hint="Enter Car Model"        />
+
+    <EditText
+        android:id="@+id/etCarColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:hint="Enter Car Color"        />
+
+    <EditText
+        android:id="@+id/etCarEngine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:hint="Enter Car Engine Size (# of Cylinders)" />
+
+    <EditText
+        android:id="@+id/etCarTransmission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="25sp"
+        android:hint="Enter Car Transmission Type (Auto/Manual)" />
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:text="Submit"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>
+</ScrollView>

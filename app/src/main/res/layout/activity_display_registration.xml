@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:drawable/screen_background_dark_transparent"
+    android:backgroundTint="@android:color/holo_orange_light"
+    tools:context=".DisplayRegistration">
+
+
+        <TextView
+            android:id="@+id/tvCarYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:text="Car Year"        />
+
+        <TextView
+            android:id="@+id/tvCarMake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Car Make"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvCarModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="25sp"
+            android:text="Car Model"        />
+
+        <TextView
+            android:id="@+id/etCarColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="25sp"
+            android:text="Car Color"        />
+
+        <TextView
+            android:id="@+id/etCarEngine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="25sp"
+            android:text="Car Engine Size (# of Cylinders)" />
+
+        <TextView
+            android:id="@+id/etCarTransmission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:text="Car Transmission Type (Auto/Manual)" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:text="Back"
+            android:onClick="onClick"/>
+
+
+</LinearLayout>

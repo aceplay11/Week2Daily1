@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Week1Daily2</string>
+    <string name="display_registration">Display Registration</string>
+    <string name="car_registration_form">Car Registration Form</string>
+</resources>
